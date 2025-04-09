@@ -1,46 +1,90 @@
-/* style.css */
-
+/* Global Settings */
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.6;
-    background: #f5f7fa;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
     color: #333;
   }
   
-  header.hero {
-    background: #1f2937;
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #007bff, #6610f2);
     color: white;
+    padding: 100px 1rem;
     text-align: center;
-    padding: 4rem 1rem;
   }
   
-  header.hero h1 {
-    margin: 0;
+  .hero h1 {
     font-size: 3rem;
+    margin-bottom: 0.5rem;
   }
   
-  header.hero p {
+  .hero p {
     font-size: 1.2rem;
+    margin-bottom: 1.5rem;
   }
   
-  section {
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+  .hero .btn {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
   }
   
-  section h2 {
-    color: #1f2937;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+  .hero .btn:hover {
+    background-color: #6610f2;
+    color: #fff;
   }
   
+  /* Section */
+  .section {
+    padding: 50px 1rem;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 1.5rem;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-card h3 {
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  .project-card p {
+    color: #666;
+  }
+  
+  /* Footer */
   footer {
     text-align: center;
-    padding: 1rem;
-    background: #e2e8f0;
-    margin-top: 2rem;
+    padding: 1.5rem 1rem;
+    background-color: #333;
+    color: white;
   }
   
