@@ -10,7 +10,7 @@ body {
   .hero {
     background: linear-gradient(135deg, #007bff, #6610f2);
     color: white;
-    padding: 100px 1rem;
+    padding: 50px 1rem;
     text-align: center;
   }
   
