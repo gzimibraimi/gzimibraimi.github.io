@@ -9,7 +9,10 @@ gsap.from(".hero .btn", { opacity: 0, y: 50, duration: 1, delay: 1 });
 gsap.from("#about", { opacity: 0, y: 50, duration: 1, delay: 1.5 });
 
 // Projects Section Animation
-gsap.from("#projects", { opacity: 0, y: 50, duration: 1, delay: 2 });
+gsap.from("#projects", { opacity: 0, y: 50, duration: 1, delay: 2.5 });
+
+// Certifications Section Animation
+gsap.from("#Certificates", { opacity: 0, y: 50, duration: 1, delay: 2 });
 
 // Hover effect on project cards
 gsap.utils.toArray(".project-card").forEach(card => {

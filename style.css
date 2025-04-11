@@ -8,9 +8,9 @@ body {
   
   /* Hero Section */
   .hero {
-    background: linear-gradient(135deg, #007bff, #6610f2);
+    background: linear-gradient(135deg, #007bff, #10bef3);
     color: white;
-    padding: 50px 1rem;
+    padding: 20px 1rem;
     text-align: center;
   }
   
@@ -50,15 +50,36 @@ body {
     color: #333;
   }
   
-  .project-cards {
+  .certificates-card {
+    display: flex;
+    justify-content: center;
+    gap: 1 rem;
+    flex-wrap: wrap;
+  }
+  
+  .certificate-card {
+    background: linear-gradient(135deg, #007bff, #10bef3);
+    padding: 1 rem;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .certificates-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .project-cards, .certificates-card {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
   }
   
-  .project-card {
-    background: white;
+  .project-card,  .certificate{
+    background:linear-gradient(135deg, #007bff, #10bef3);
     padding: 1.5rem;
     width: 250px;
     border-radius: 8px;
@@ -72,7 +93,7 @@ body {
   }
   
   .project-card h3 {
-    color: #007bff;
+    color: #00060c;
     font-size: 1.5rem;
   }
   
@@ -87,4 +108,3 @@ body {
     background-color: #333;
     color: white;
   }
-  
