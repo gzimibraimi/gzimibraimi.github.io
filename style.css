@@ -1,110 +1,62 @@
-/* Global Settings */
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background: linear-gradient(135deg, #007bff, #10bef3);
-    color: white;
-    padding: 20px 1rem;
-    text-align: center;
-  }
-  
-  .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .hero .btn {
-    padding: 1rem 2rem;
-    background-color: #fff;
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-  }
-  
-  .hero .btn:hover {
-    background-color: #6610f2;
-    color: #fff;
-  }
-  
-  /* Section */
-  .section {
-    padding: 50px 1rem;
-    text-align: center;
-  }
-  
-  .section h2 {
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  .certificates-card {
-    display: flex;
-    justify-content: center;
-    gap: 1 rem;
-    flex-wrap: wrap;
-  }
-  
-  .certificate-card {
-    background: linear-gradient(135deg, #007bff, #10bef3);
-    padding: 1 rem;
-    width: 300px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .certificates-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  }
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
 
-  .project-cards, .certificates-card {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-  
-  .project-card,  .certificate{
-    background:linear-gradient(135deg, #007bff, #10bef3);
-    padding: 1.5rem;
-    width: 250px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  }
-  
-  .project-card h3 {
-    color: #00060c;
-    font-size: 1.5rem;
-  }
-  
-  .project-card p {
-    color: #666;
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 1.5rem 1rem;
-    background-color: #333;
-    color: white;
-  }
+.section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #0562ee, #8081e2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: white;
+  color: #764ba2;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-cards, .certificates-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card, .certificate-card {
+  background: #5c93e6bd;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background:linear-gradient(to right, #667eea, #764ba2);
+  font-size: 0.9rem;
+}
