@@ -107,6 +107,26 @@ section {
   justify-content: center;
   gap: 10px;
 }
+.hero-tagline {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.9);
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.hero-buttons .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
 
 /* ====================== */
 /* ABOUT SECTION */

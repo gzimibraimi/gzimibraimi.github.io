@@ -19,6 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
     delay: 0.5,
     ease: "power2.out"
   });
+  gsap.from(".hero-tagline", {
+  opacity: 0,
+  y: 20,
+  duration: 1,
+  delay: 1,
+  ease: "power2.out"
+});
+
 
   gsap.from(".hero-buttons .btn", {
     opacity: 0,
