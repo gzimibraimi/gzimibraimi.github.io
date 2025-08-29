@@ -2,7 +2,7 @@
 body { font-family: 'Segoe UI', sans-serif; background: #f4f4f7; color: #333; line-height: 1.6; }
 
 .hero {
-  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  background: linear-gradient(135deg, #4ec8c8, #1a1a1b);
   color: white;
   height: 100vh;
   display: flex;
@@ -29,7 +29,7 @@ h2 { font-size: 2rem; margin-bottom: 30px; text-align: center; }
 }
 
 .card {
-  background: #f4f4f7;
+  background: linear-gradient(135deg, #4ec8c8, #7e7e81);
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 6px 16px rgba(0,0,0,0.1);
